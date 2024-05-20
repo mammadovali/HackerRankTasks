@@ -157,5 +157,60 @@ namespace HackerRankTasks.ProblemSolving
 
             return counter;
         }
+
+        public static string TimeConversion(string s)
+        {
+            //12:05:45PM
+            //12:05:50AM
+
+            string lastTwo = s.ElementAt(8).ToString();
+
+            string hours = s.Substring(0, 2);
+            string minutes = s.Substring(3, 2);
+            string seconds = s.Substring(6, 2);
+
+            string pmHours = "";
+
+            if (lastTwo == "P")
+            { 
+                pmHours = (Convert.ToInt32(hours) + 12).ToString();
+
+                if (Convert.ToInt32(hours) == 12)
+                    pmHours = "12";
+            }
+
+            if (lastTwo == "A")
+            {
+                pmHours = hours;
+
+                if (Convert.ToInt32(hours) == 12)
+                    pmHours = "00";
+            }
+
+
+            return $"{pmHours}:{minutes}:{seconds}";
+        }
+
+        public static List<int> GradingStudents(List<int> grades)
+        {
+            List<int> result = new List<int>(grades.Count);
+
+            foreach (var grade in grades)
+            {
+                if(grade >= 38)
+                {
+                    var left = grade % 5;
+
+                    if (left > 2)
+                        result.Add(grade + (5 - left));
+                    else
+                        result.Add(grade);
+                }
+                else
+                    result.Add(grade);
+            }
+
+            return result;
+        }
     }
 }

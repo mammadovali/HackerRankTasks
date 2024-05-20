@@ -1,0 +1,15 @@
+D:\HackerRankTasks\bin\Debug\net6.0\HackerRankTasks.exe
+D:\HackerRankTasks\bin\Debug\net6.0\HackerRankTasks.deps.json
+D:\HackerRankTasks\bin\Debug\net6.0\HackerRankTasks.runtimeconfig.json
+D:\HackerRankTasks\bin\Debug\net6.0\HackerRankTasks.dll
+D:\HackerRankTasks\bin\Debug\net6.0\HackerRankTasks.pdb
+D:\HackerRankTasks\obj\Debug\net6.0\HackerRankTasks.GeneratedMSBuildEditorConfig.editorconfig
+D:\HackerRankTasks\obj\Debug\net6.0\HackerRankTasks.AssemblyInfoInputs.cache
+D:\HackerRankTasks\obj\Debug\net6.0\HackerRankTasks.AssemblyInfo.cs
+D:\HackerRankTasks\obj\Debug\net6.0\HackerRankTasks.csproj.CoreCompileInputs.cache
+D:\HackerRankTasks\obj\Debug\net6.0\HackerRankTasks.sourcelink.json
+D:\HackerRankTasks\obj\Debug\net6.0\HackerRankTasks.dll
+D:\HackerRankTasks\obj\Debug\net6.0\refint\HackerRankTasks.dll
+D:\HackerRankTasks\obj\Debug\net6.0\HackerRankTasks.pdb
+D:\HackerRankTasks\obj\Debug\net6.0\HackerRankTasks.genruntimeconfig.cache
+D:\HackerRankTasks\obj\Debug\net6.0\ref\HackerRankTasks.dll
